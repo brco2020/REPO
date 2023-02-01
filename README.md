@@ -7,7 +7,7 @@
 - JS
 ###### In-Class Assignments
 - [ICA1] (https://docs.google.com/document/d/e/2PACX-1vQLIrs2SeQmz-tg7jexjSYCzh7bGBz4QCDGHQNmgtG7zgBtcS4I5ym98yTt91apvPEU2il-vyNYDpPQ/pub)
-- <a href="ICA/ICA2 -- Exploring Directory Structures (Week 2).pdf">ICA2</a>
+- <a href="ICA/ICA2.pdf">ICA2</a>
 - ICA3
 - ICA4
 - ICA5
