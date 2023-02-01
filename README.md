@@ -6,9 +6,10 @@
 - CSS
 - JS
 ###### In-Class Assignments
-- [ICA1] (https://docs.google.com/document/d/e/2PACX-1vQLIrs2SeQmz-tg7jexjSYCzh7bGBz4QCDGHQNmgtG7zgBtcS4I5ym98yTt91apvPEU2il-vyNYDpPQ/pub)
+- <a href="ICA/ICA1.pdf">ICA2</a>
 - <a href="ICA/ICA2.pdf">ICA2</a>
-- ICA3
+- <a href="ICA/ica3a.html">ICA3a</a>
+- <a href="ICA/ica3b.html">ICA3b</a>
 - ICA4
 - ICA5
 - ICA6
@@ -22,8 +23,8 @@
 - ICA14
 - ICA15
 ###### Weekly Assignments
-- [WA1] (https://brco2020.github.io/REPO/WA/wa1.html) 
-- WA2
+- <a href="WA/wa1.html">WA1</a>
+- <a href="WA/wa2.html">WA2</a>
 - WA3
 - WA4
 - WA5
