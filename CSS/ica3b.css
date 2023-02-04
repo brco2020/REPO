@@ -69,11 +69,12 @@ html, body {
     flex: 5;
     text-transform: uppercase;
   }
-  
+
   header img {
     display: block;
     height: 60px;
     padding-top: 20.15px;
+    justify-content: center;
   }
   
   nav {
