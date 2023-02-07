@@ -18,6 +18,13 @@ body {
     font-style: italic;
   }
 
+  ul{
+    background-color: #eeeeee;
+    border: 5px solid purple;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
   .job-title {
     color: #999999;
     font-weight: bold;
@@ -33,9 +40,3 @@ body {
     color: green;
   }
 
-  ul{
-    background-color: #eeeeee;
-    border: 5px solid purple;
-    padding-top: 10%;
-    padding-bottom: 10%;
-  }
