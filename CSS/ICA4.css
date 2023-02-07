@@ -10,7 +10,7 @@ body {
     color: hotpink;
     font-size: 2em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 8px dotted purple;
+    border-bottom: 7.5px dotted purple;
   }
 
   h2 {
@@ -21,8 +21,8 @@ body {
   ul{
     background-color: #eeeeee;
     border: 5px solid purple;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .job-title {
