@@ -2,7 +2,7 @@
 ## Brooke Cochran
 ## Atlas 2200 Web
 ###### Projects
-- HTML
+- <a href="html-midterm/page1.html">HTML</a>
 - CSS
 - JS
 ###### In-Class Assignments
@@ -25,7 +25,7 @@
 ###### Weekly Assignments
 - <a href="WA/wa1.html">WA1</a>
 - <a href="WA/wa2.html">WA2</a>
-- WA3
+- <a href="WA/wa3.html">WA3</a>
 - WA4
 - WA5
 - WA6
