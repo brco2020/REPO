@@ -1,0 +1,68 @@
+html, body{
+    height:100%;
+}
+#background{
+    
+    background-image: url(/WA/IMG/24-Logo.jpg);
+  
+    min-height: 100%;
+    min-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    
+}
+
+  #overlay1 {
+    width: 300px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 50px;
+    left:50px; 
+  }
+  
+  #overlay2 {
+    width: 300px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 50px;
+    right:50px;
+    
+  }
+
+  #overlay3 {
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  #overlay4 {
+    width: 250px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  #overlay5 {
+    width: 200px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 30px;
+    left: 550px;
+    text-align: center;
+  }
+
+  
