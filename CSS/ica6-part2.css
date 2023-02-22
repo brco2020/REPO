@@ -6,6 +6,8 @@ body{
 #flex-parent{
     display:flex;
     background-color: orangered;
+
+    flex-direction: row;
 }
 #flex-parent p{
     padding:5vw;
@@ -13,42 +15,27 @@ body{
 
 
 #grid-parent{
+    flex-direction: row;
     display:grid;
+    display:flex;
+}
+
+#grid-parent0{
+    flex-direction: row;
+    -ms-flex-align: center;
+    display:flex;
+    max-width: 425px;
+    max-height: 20px;
+    background-color: grey;
+    padding:3vw 5vh;
+    margin:5vw;
 }
 
 #grid-parent h1{
     background-color: grey;
     padding:3vw 5vh;
     margin:5vw;
+    max-width: 20px;
     
 }
-#no0{
 
-}
-#no1{
-
-}
-#no2{
-
-}
-#no3{
-
-}
-#no4{
-
-}
-#no5{
-
-}
-#no6{
-
-}
-#no7{
-
-}
-#no8{
-
-}
-#no9{
-
-}
