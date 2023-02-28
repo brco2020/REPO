@@ -1,0 +1,47 @@
+body{
+    background-color: khaki;
+}
+
+#box1{
+    width: 25vw;
+    height: 20vh;
+    background-color: indianred;
+    transition: background-color 0.5s;
+}
+
+#box1:hover{
+    background-color: purple;
+}
+#box2{
+    width: 25vw;
+    height:20vh;
+    position: relative;
+    background-color: orangered;
+    animation: box2move 2.2s infinite alternate;
+}
+
+@keyframes box2move{
+    0% { transform: translateY(0) translateX(0); } 
+    25% { transform: translateY(150px) translateX(150px); }
+    50%  { transform: translateY(-150px) translateX(150px);}
+    100% { transform: translateY(0); } 
+
+}
+
+/* @keyframes x {
+    100% {
+      transform: translateX(calc(100vw - 25vw));
+    }
+  }
+  @keyframes y {
+    100% {
+      transform: translateY(calc(100vh - 25vw);
+    }
+  }
+
+  .x {
+    animation: x var(13s) linear infinite alternate;
+  }
+  .y {
+    animation: y var(7s) linear infinite alternate;
+  } */
