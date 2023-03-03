@@ -1,0 +1,57 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: orange;
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:hover{
+    background-color: black;
+}
+
+
+#img{
+    width:30vw;
+    height: 30vh;
+    animation: imgmove 5s infinite alternate;
+}
+
+#red-ball{
+    background-color: orange;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top:0;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 5000px) {
+    nav {
+      min-width: 100%;
+    }
+  }
+
+  @keyframes imgmove{
+    0% { transform: translateY(0) translateX(0); } 
+    50% { transform: translateX(600px); }
+    100% { transform: translateX(-600px)} 
+
+}
