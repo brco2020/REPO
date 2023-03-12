@@ -146,8 +146,8 @@ nav ul li a:hover{
     color:#777474;
     font-size: 1.1rem;
 }
-.office-time font,
-.office-number font{
+.office-time > font,
+.office-number > font{
     color:#7b92fd;
     font-weight: 700;
 }
@@ -242,7 +242,7 @@ nav ul li a:hover{
     height:150px;
     margin:10px;
 }
-.box font{
+.box > font{
     font-size: 1.5rem;
     color: #22252e;
     letter-spacing: 1px;
