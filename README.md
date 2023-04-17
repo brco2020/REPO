@@ -18,9 +18,9 @@
 - <a href="ICA/ica7.html">ICA7</a>
 - ICA8
 - <a href="ICA/ica9.html">ICA9</a>
-- ICA10
-- ICA11
-- ICA12
+- <a href="ICA/ica10.html">ICA10</a>
+- <a href="ICA/ica11.html">ICA11</a>
+- <a href="ICA/ica12.html">ICA12</a>
 - ICA13
 - ICA14
 - ICA15
@@ -34,9 +34,9 @@
 - <a href="WA/wa7.html">WA7</a>
 - WA8
 - <a href="WA/wa9.html">WA6</a>
-- WA10
-- WA11
-- WA12
-- WA13
+- <a href="WA/WA10/wa10.html">WA10</a>
+- <a href="WA/w11.html">WA11</a>
+- <a href="WA/wa12.html">WA12</a>
+- <a href="WA/wa13.html">WA13</a>
 - WA14
 - WA15
