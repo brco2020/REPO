@@ -4,7 +4,24 @@ function check() {
 }
 
 function submit() {
-    base10 = Math.pow(2,0)*output0.textContent + Math.pow(2,1)*output1.textContent + Math.pow(2,2)*output2.textContent + Math.pow(2,3)*output3.textContent + Math.pow(2,4)*output4.textContent + Math.pow(2,5)*output5.textContent + Math.pow(2,6)*output6.textContent + Math.pow(2,7)*output7.textContent;
+    
+    bit0=(Math.pow(2,7)*output0.textContent);
+    console.log(bit0);
+    bit1=  Math.pow(2,6)*output1.textContent;
+    console.log(bit1);
+    bit2=  Math.pow(2,5)*output2.textContent;
+    console.log(bit2);
+    bit3= Math.pow(2,4)*output3.textContent;
+    console.log(bit3);
+    bit4=  Math.pow(2,3)*output4.textContent;
+    console.log(bit4);
+    bit5=  Math.pow(2,2)*output5.textContent;
+    console.log(bit5);
+    bit6=  Math.pow(2,1)*output6.textContent;
+    console.log(bit6);
+    bit7=  Math.pow(2,0)*output7.textContent;
+    console.log(bit7);
+    base10 = bit0+bit1+bit2+bit3+bit4+bit5+bit6+bit7;
     console.log(base10);
     alert('Your volume is now: ' + base10);
 }
