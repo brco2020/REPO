@@ -1,0 +1,139 @@
+.pagearea {
+    position:absolute;
+    left:10px;
+    top:10px;
+    right:10px;
+    bottom:10px;
+    
+          user-select: none;
+          -moz-user-select: none;
+          -khtml-user-select: none;
+          -webkit-user-select: none;
+          -o-user-select: none;
+  }
+  
+  .content {
+      height: 650px;
+      width: 960px;
+      border-radius: 15px;
+      background-color: #bbbbff;
+   
+      
+    -ms-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-transition: all 500ms ease-in-out !important;
+    transition: all 500ms ease-in-out !important;
+    position: absolute;
+      
+  }
+  
+  div {
+      border-radius: 5px;
+      transition: background-color 0.5s ease;
+      font-family: "Arial";
+      font-size: 24pt;
+      font-weight:bold;
+      padding: 5px;
+      top: 10px;
+  }
+  
+  .dots, .flipcard{
+      position: relative;
+      display: inline-block;
+      height: 150px;
+      width: 106px;
+      background-color: #ffffff;
+      background-size:105px 105px;
+      left: 2px;
+      top: 5px;
+      text-align: left;
+      vertical-align: middle;
+      padding: 2px;
+      cursor:pointer;
+  }
+  
+  .flipcard{
+      font-size:110pt;
+       text-align: center;
+  }
+  
+  .calc_area {
+      margin-left:5px;
+  }
+  .calc {
+      position: relative;
+      display: inline-block;
+      top: 5px;
+      left: 0px;
+      color: #666666;
+      width: 81px;
+      font-size:40pt;
+      text-align: center;
+  }
+  
+  #calc128 {
+      margin-right: 10px;
+  }
+  
+  .total_area {
+      justify-content: flex-start, flex-end, center, space-between, space-around;
+      width: 100%;
+      text-align: center;
+  }
+  
+  .total_area div {
+   color: rgba(255, 255, 255, 0.6);
+   display: inline-block;
+  }
+  
+  
+  
+  #message, #times2, #divide2 {
+      position: relative;
+      font-size:100pt;
+      text-align: center;
+      top: 40px;
+  }	
+  
+  #message {
+      top: 0px;
+      
+  }
+  
+  .shifter {
+      color: rgba(255, 255, 255, 0.6);
+      border: solid 10px rgba(255, 255, 255, 0.6);
+      border-radius: 100px;
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+  }
+  
+  #times2 {
+      float:left;
+      margin-left: 20px;
+      font-size:50pt;
+  }
+  
+  #divide2 {
+      float: right;
+      margin-right: 25px;
+      font-size:50pt;
+  }
+  
+  .total_area p{
+    position: relative;
+    font-size:12pt;
+    text-align: center;
+    top: auto;
+    color:rgba(255, 255, 255, 0.6);
+  }
+
+  .total_area h1{
+    position: relative;
+    font-size:20pt;
+    text-align: center;
+    top: auto;
+    color:white;
+  }

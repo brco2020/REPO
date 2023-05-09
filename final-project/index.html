@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Final Project - Bad Volume Design</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+		
+		
+		
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+        <script type='text/javascript' src='script.js'></script>
+		
+		
+		
+
+<script type="text/javascript" src="script/hammer.min.js"></script>
+<script type="text/javascript" src="script/jquery.hammer.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+		
+
+
+
+		
+<script type="text/javascript">
+
+var pageWidth, pageHeight;
+
+var basePage = {
+  width: 980,
+  height: 620,
+  scale: 1,
+  scaleX: 1,
+  scaleY: 1
+};
+
+$(function(){
+  var $page = $('.content');
+  
+  getPageSize();
+  scalePages($page, pageWidth, pageHeight);
+  
+  //using underscore to delay resize method till finished resizing window
+  $(window).resize(_.debounce(function () {
+    getPageSize();            
+    scalePages($page, pageWidth, pageHeight);
+  }, 150));
+  
+
+function getPageSize() {
+  pageHeight = $('#pagearea').height();
+  pageWidth = $('#pagearea').width();
+}
+
+function scalePages(page, maxWidth, maxHeight) {            
+  var scaleX = 1, scaleY = 1;                      
+  scaleX = maxWidth / basePage.width;
+  scaleY = maxHeight / basePage.height;
+  basePage.scaleX = scaleX;
+  basePage.scaleY = scaleY;
+  basePage.scale = (scaleX > scaleY) ? scaleY : scaleX;
+
+  var newLeftPos = Math.abs(Math.floor(((basePage.width * basePage.scale) - maxWidth)/2));
+  var newTopPos = Math.abs(Math.floor(((basePage.height * basePage.scale) - maxHeight)/2));
+
+  page.attr('style', '-webkit-transform:scale(' + basePage.scale + ');left:' + newLeftPos + 'px;top:' + newTopPos + 'px;');
+  page.attr('style', '-ms-transform:scale(' + basePage.scale + ');left:' + newLeftPos + 'px;top:' + newTopPos + 'px;');
+  page.attr('style', 'transform:scale(' + basePage.scale + ');left:' + newLeftPos + 'px;top:' + newTopPos + 'px;');
+
+}
+});
+
+</script>
+
+</head>
+
+
+	<body>
+       
+	<div class="pagearea" id="pagearea">	
+		
+		<div class="content">
+		
+         <div class="Calc_message" id="calc"></div>
+		    
+		<div class="dot_area">	
+			<div class="dots" id="place128"><img src="128dot.png" height="100%" width="100%"></div>
+			<div class="dots" id="place64"><img src="64dot.png" height="100%" width="100%"></div>
+			<div class="dots" id="place32"><img src="32dot.png" height="100%" width="100%"></div>
+			<div class="dots" id="place16"><img src="16dot.png" height="100%" width="100%"></div>
+			<div class="dots" id="place8"><img src="8dot.png" height="100%" width="100%"></div>
+			<div class="dots" id="place4"><img src="4dot.png" height="100%" width="100%"></div>
+			<div class="dots" id="place2"><img src="2dot.png" height="100%" width="100%"></div>
+			<div class="dots" id="place1"><img src="1dot.png" height="100%" width="100%"></div>
+		</div>
+		<div class="digit_area">	
+			<div class="flipcard" id="digit128">0</div>
+			<div class="flipcard" id="digit64">0</div>			
+			<div class="flipcard" id="digit32">0</div>
+			<div class="flipcard" id="digit16">0</div>
+			<div class="flipcard" id="digit8">0</div>
+			<div class="flipcard" id="digit4">0</div>
+			<div class="flipcard" id="digit2">0</div>
+			<div class="flipcard" id="digit1">0</div>
+		</div>	
+		
+		<div class="total_area">	
+            <div id="times2" class="shifter">&lt</div>
+			<div id="message">=0</div>
+			<div id="divide2" class="shifter">&gt</div>	
+            <h1>Bad Volume Design</h1>
+            <p>Please select the volume you would like by creating an 8-bit number. To adjust the volume, use the arrows to shift the bits.</p>			
+			
+		</div>	
+	
+</div> 	
+	</body>
+</html>
