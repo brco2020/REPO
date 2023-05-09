@@ -137,3 +137,8 @@
     top: auto;
     color:white;
   }
+  
+.dot-area img{
+    width:100%;
+    height:100%;
+}
